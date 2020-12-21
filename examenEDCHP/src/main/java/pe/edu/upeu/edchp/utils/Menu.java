@@ -8,7 +8,7 @@ public class Menu {
         resoluccionexamen examen = new resoluccionexamen();
 
         System.out.println(
-                "Selecciones la opcion que mas desee :\n[1] Ejercicio 1 EDCHP\n[2] Ejercicio 2 EDCHP\n[3] Ejercicio 3 EDCHP\n[4] Ejercicio 4 EDCHP\n[0] finalizar\n");
+                "Selecciones la opcion que mas desee :\n[1] realizar venta\n [0]finalizar\n");
         System.out.print("\n==> ");
         numberOption = teclado.lector(3);
 
@@ -17,24 +17,7 @@ public class Menu {
                 examen.ejercicio1();
                 repeatCicle(teclado);
                 break;
-            case 2:
-                examen.ejercicio2();
-                repeatCicle(teclado);
-                break;
-            case 3:
-                examen.ejercicio3();
-                repeatCicle(teclado);
-                break;
-            case 4:
-                int n, e;
-                System.out.println("Dame el valor numerico de la base: ");
-                n = teclado.lector(0);
-                System.out.println("Dame un valor numerico del exponente: ");
-                e = teclado.lector(0);
 
-                System.out.println(examen.ejercicio4(n, e));
-                repeatCicle(teclado);
-                break;
             case 0:
                 System.out.println("!Hasta la proxima¡");
                 break;
