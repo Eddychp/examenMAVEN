@@ -1,9 +1,9 @@
-package pe.edu.upeu.edchp.examen;
+package pe.edu.upeu.edchp.proyecto;
 
 
 import pe.edu.upeu.edchp.utils.leerteclado;
 import java.util.Scanner;
-public class resoluccionexamen {
+public class proyectointegrador {
 
         public static leerteclado teclado = new leerteclado();
 
@@ -11,7 +11,7 @@ public class resoluccionexamen {
         int CantAutomoviles, costo = 0, categoria, categoria1 = 0, categoria2 = 0, categoria3 = 0,total=0;
         double impuesto = 0, impuestoAPagar = 0;
        System.out.println(
-                "Menu :\n[1]pollo a la brasa:\n[2]pollo al horno\n[3]Mixto de pollo");
+                "Menu :\n[1]pollo a la brasa: 20 s/.\n[2]pollo al horno\n20 s/.[3]Mixto de pollo 30 s/.");
   
         System.out.println("cunatos fue su eleccion: ");
         CantAutomoviles = teclado.lector(0);
@@ -38,16 +38,16 @@ public class resoluccionexamen {
                 total=categoria1+categoria2+categoria3;
             }
                  System.out.println(
-                "----------------voleta de veta-------------");
+                "----------------Boleta de venta-------------");
             String nom= null;
             Scanner nombre=new Scanner(System.in);
-            System.out.println("Ingresa tu nombre");
+            System.out.println("Apellidos y nombres");
             nom=nombre.nextLine();
 
         }
               
        
-        System.out.println("pollo a la bzasa : " + categoria1);
+        System.out.println("pollo a la brasa : " + categoria1);
         System.out.println("pollo al horno : " + categoria2);
         System.out.println("pollo mixto : " + categoria3);
         System.out.println("total a pagr es : " + total);

@@ -1,11 +1,11 @@
 package pe.edu.upeu.edchp.utils;
 
-import pe.edu.upeu.edchp.examen.resoluccionexamen;
+import pe.edu.upeu.edchp.proyecto.proyectointegrador;
 
 public class Menu {
     public static void MenuOpt(leerteclado teclado) {
         int numberOption;
-        resoluccionexamen examen = new resoluccionexamen();
+        proyectointegrador examen = new proyectointegrador();
 
         System.out.println(
                 "Selecciones la opcion que mas desee :\n[1] realizar compra\n[0]finalizar\n");
