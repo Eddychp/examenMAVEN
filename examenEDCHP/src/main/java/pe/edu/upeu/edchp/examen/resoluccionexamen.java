@@ -2,6 +2,7 @@ package pe.edu.upeu.edchp.examen;
 
 
 import pe.edu.upeu.edchp.utils.leerteclado;
+import java.util.Scanner;
 public class resoluccionexamen {
 
         public static leerteclado teclado = new leerteclado();
@@ -36,10 +37,16 @@ public class resoluccionexamen {
             if (total==0){
                 total=categoria1+categoria2+categoria3;
             }
+                 System.out.println(
+                "----------------voleta de veta-------------");
+            String nom= null;
+            Scanner nombre=new Scanner(System.in);
+            System.out.println("Ingresa tu nombre");
+            nom=nombre.nextLine();
 
         }
-               System.out.println(
-                "----------------voleta de veta-------------");
+              
+       
         System.out.println("pollo a la bzasa : " + categoria1);
         System.out.println("pollo al horno : " + categoria2);
         System.out.println("pollo mixto : " + categoria3);

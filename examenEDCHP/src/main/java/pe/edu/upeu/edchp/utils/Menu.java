@@ -8,7 +8,7 @@ public class Menu {
         resoluccionexamen examen = new resoluccionexamen();
 
         System.out.println(
-                "Selecciones la opcion que mas desee :\n[1] realizar venta\n [0]finalizar\n");
+                "Selecciones la opcion que mas desee :\n[1] realizar compra\n[0]finalizar\n");
         System.out.print("\n==> ");
         numberOption = teclado.lector(3);
 
